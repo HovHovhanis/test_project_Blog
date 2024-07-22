@@ -526,15 +526,6 @@ img {
     .nav {
         display: none;
     }
-
-    .burger-menu {
-        display: block;
-    }
-
-}
-
-@media screen and (max-width: 990px) {
-
     .header {
         top: 0;
     }
@@ -543,6 +534,13 @@ img {
         border-radius: 0;
         background-color: #fff;
     }
+    .burger-menu {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
 
     .blog-categories-box {
         flex-wrap: wrap;
